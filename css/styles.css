@@ -1,0 +1,227 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  header {
+    position: absolute;
+    height: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+  }
+
+  main {
+    min-height: calc(100vh - 50px); /* Altezza minima pari all'altezza dello schermo meno l'altezza dell'header */
+    padding: 20px; /* Ad esempio, padding per evitare che i contenuti si attacchino ai bordi */
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  .menu {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 50px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .menu ul li a {
+    font-weight: bold; /* rendi i link in grassetto */
+    color: black; /* rendi i link neri */
+    text-decoration: none; /* rimuovi sottolineatura */
+  }
+  
+  .menu ul li a:hover, /* Cambia colore al passaggio del mouse */
+  .menu ul li a:active { /* Cambia colore quando viene cliccato */
+    color: rgb(255, 196, 0); /* rendi i link gialli */
+  }
+  
+  .container {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 196, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 0 0 20%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .column img {
+    max-width: 70%;
+  }
+  
+  .column p {
+    margin-top: 7px;
+  }
+
+  .contact-info {
+    font-size: 30px;
+  }
+
+  .social-icons a {
+    margin-right: 100px; /* Aggiunge uno spazio di 10px tra le immagini */
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 100px;
+    
+  }
+  
+  
+  .footer-email {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer-copyright {
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .profile-image {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Rende l'immagine rotonda */
+  }
+
+  .chisono {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 200px;
+  }
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .login-logo {
+    position: absolute;
+    top: 120px; /* Altezza del logo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid #ccc; /* Bordo del logo */
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombra del logo */
+  }
+  .login-box {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    width: 400px;
+  }
+  
+  .login-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .remember-me,
+  .forgot-password,
+  .register-link {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .checkbox-label {
+    margin-left: 5px;
+  }
+  
+  .forgot-password-link,
+  .register-link-text {
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .forgot-password-link:hover,
+  .register-link-text:hover {
+    text-decoration: underline;
+  }
+
+  .login-button {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(255, 187, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(255, 218, 126);
+  }
