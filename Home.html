@@ -17,20 +17,20 @@
 <link rel="manifest" href="images/favicon/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="ASSEMBLAGGIO PC, hardware, componenti, computer, montaggio">
   <title>Guida per Assemblaggio PC</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="Home.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 
 </head>
 <body>
   <header>
     <div class="logo">
+      <a href="Home.html">
       <img src="images/logosito1.png" alt="Logo">
-    </div>
+    </a></div>
     <nav class="menu">
       <ul>
         <li><a href="Home.html">Home</a></li>
@@ -41,17 +41,110 @@
       </ul>
     </nav>
   </header>
+  <style>
+    .background-image {
+      background-image: url('images/sfondo.jpg');
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 300px;
+      position: absolute;
+      margin-bottom: 300px;
+      top: 80px;
+      left: 0;
+      z-index: -1;
+    }
+  </style>
   <main>
+    <div class="background-image"></div>
     <div class="container">
-      <h1>GUIDA ASSEMBLAGGIO PC</h1>
-<div class="container">
-  <h1 class="title">Ahj</h1>
-  <div class="content">
-    <img src="images/Componenti.png" alt="Immagine">
-    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lectus sit amet ante ultrices ultricies. Nulla in vestibulum nulla. Integer interdum ultricies urna, vel consectetur libero sodales ac. Donec accumsan, mauris quis tempor ullamcorper, felis libero tempus leo, vel lacinia odio ex ut justo.</p>
-  </div>
-</div>
-</main>
+      <br><br>
+      <br><br>
+      <h3>GUIDA ASSEMBLAGGIO PC</h3>
+      <h5>Fontani Nicolò</h5>
+      <br><br>
+ 
+
+      <div class="step">
+        <h2 class="step-title">Raccogli i componenti</h2>
+        <div class="step-description">
+          <p>Assicurati di avere tutti i componenti necessari per il tuo PC desktop, inclusa la CPU, la scheda madre, la scheda grafica (se necessaria), la RAM, l'hard disk o lo SSD, l'alimentatore, il case, la scheda di rete (se necessaria), la ventola del processore, pasta termica (se necessaria), cavi SATA, cavi di alimentazione, e una chiave a croce o cacciavite.</p>
+        </div>
+        <img class="step-image" src="images/Componenti.png" alt="Componenti" width="300" height="300">
+      </div>
+
+      <div class="step">
+        <h2 class="step-title">Preparare l'area di lavoro
+        </h2>
+        <div class="step-description">
+          <p>Trova un'area spaziosa e pulita per lavorare. Assicurati di avere abbastanza spazio per tutti i componenti e gli strumenti necessari.
+            Montare la scheda madre nel case: Installa la staffa di supporto della scheda madre nel case, quindi posiziona la scheda madre nel case e fissala con viti. Assicurati che gli standoffs della scheda madre corrispondano ai fori nel case.</p>
+        </div>
+        <img class="step-image" src="images/Lavoro.png" alt="Componenti" width="500" height="500">
+      </div>
+
+      <div class="step">
+        <h2 class="step-title">Installare la CPU e la ventola del processore
+        </h2>
+        <div class="step-description">
+          <p>Rimuovi il coperchio del socket della CPU sulla scheda madre, posiziona la CPU correttamente nel socket seguendo le istruzioni del manuale della scheda madre, quindi installa la ventola del processore sul socket.
+          </p>
+        </div>
+        <img class="step-image" src="images/CPU.png" alt="Componenti" width="300" height="300">
+      </div>
+
+      <div class="step">
+        <h2 class="step-title">Installare la RAM</h2>
+        <div class="step-description">
+          <p>Apri gli slot DIMM sulla scheda madre, inserisci i moduli di RAM in modo che corrispondano con la tacca sulla scheda madre e premi verso il basso fino a quando non senti un clic.
+            Installare l'unità di archiviazione: Se stai utilizzando un'unità HDD o SSD, monta l'unità nel vano designato nel case utilizzando le viti fornite. Collega anche i cavi SATA alla scheda madre e all'unità di archiviazione.</p>
+        </div>
+        <img class="step-image" src="images/RAM.png" alt="Componenti" width="300" height="300">
+      </div>
+
+      <div class="step">
+        <h2 class="step-title">Installare l'alimentatore</h2>
+        <div class="step-description">
+          <p>Posiziona l'alimentatore nel case e fissalo con le viti. Collega i cavi di alimentazione alla scheda madre, alla CPU, alla scheda grafica (se presente), all'unità di archiviazione e ai dispositivi periferici.
+          </p>
+        </div>
+        <img class="step-image" src="images/PSU.png" alt="Componenti" width="300" height="300">
+      </div>
+
+      <div class="step">
+        <h2 class="step-title">Collegare i cavi del case
+        </h2>
+        <div class="step-description">
+          <p>Collega i cavi del pannello frontale del case alla scheda madre per i pulsanti di accensione e reset, le porte USB e le porte audio.
+            Installare la scheda grafica: Se stai utilizzando una scheda grafica dedicata, inseriscila nell'apposito slot PCI-Express sulla scheda madre e fissala con le viti. Assicurati anche di collegare i cavi di alimentazione PCIe, se necessario.
+          </p>
+        </div>
+        <img class="step-image" src="images/assemblare-pc.jpg" alt="Componenti" width="300" height="300">
+      </div>
+
+      <div class="step">
+        <h2 class="step-title">Verificare i collegamenti e l'assemblaggio
+        </h2>
+        <div class="step-description">
+          <p>Assicurati che tutti i cavi siano collegati correttamente e che non ci siano collegamenti smarriti o mancanti. Controlla anche che tutti i componenti siano installati saldamente e che non ci siano parti mobili.
+            Chiudere il case e collegare il monitor, la tastiera e il mouse: Chiudi il case e collega il monitor, la tastiera e il mouse al PC desktop.
+          </p>
+        </div>
+        <img class="step-image" src="images/Assemblaggio-PC.jpg" alt="Componenti" width="300" height="300">
+      </div>
+
+      <div class="step">
+        <h2 class="step-title">Accendere il PC
+
+        </h2>
+        <div class="step-description">
+          <p>Collega il cavo di alimentazione e accendi il PC desktop. Assicurati che tutti i componenti si accendano correttamente e che il PC si avvii senza problemi.
+            Installare il sistema operativo: Una volta avviato il PC con successo, segui le istruzioni sullo schermo per installare il sistema operativo e i driver necessari.
+          </p>
+        </div>
+        <img class="step-image" src="images/DSC07399.jpg" alt="Componenti" width="400" height="300">
+      </div>
+  </main>
   <footer>
     <div class="footer-content">
       <p class="footer-email">info@nicofontani.it</p>

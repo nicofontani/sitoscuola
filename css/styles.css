@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    position: absolute;
+  position: absolute;
     height: 50px;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@ body {
   
   .menu ul li a:hover, /* Cambia colore al passaggio del mouse */
   .menu ul li a:active { /* Cambia colore quando viene cliccato */
-    color: rgb(255, 196, 0); /* rendi i link gialli */
+    color: rgb(0, 81, 255); /* rendi i link gialli */
   }
   
   .container {
@@ -64,10 +64,27 @@ body {
     margin-top: 100px;
     font-weight: bold;
     font-size: 50px;
-    color: rgb(255, 196, 0);
+    color: rgb(0, 81, 255);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
   
+  h3 {
+    margin-top: 100px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  h5 {
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+
   .row {
     display: flex;
     justify-content: center;
@@ -92,7 +109,9 @@ body {
   }
 
   .social-icons a {
-    margin-right: 100px; /* Aggiunge uno spazio di 10px tra le immagini */
+    margin: 100px;
+    text-align: center;/* Aggiunge uno spazio di 10px tra le immagini */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.6);
   }
   
   footer {
@@ -126,6 +145,13 @@ body {
 
   .chisono {
     font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .infosocial {
+    font-weight: bold;
+    text-align: center;
     font-size: 30px;
     margin-top: 200px;
   }
@@ -216,12 +242,35 @@ body {
     border: none;
     border-radius: 10px;
     font-size: 18px;
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(0, 81, 255);
     color: rgb(0, 0, 0);
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
   .login-button:hover {
-    background-color: rgb(255, 218, 126);
+    background-color: rgb(78, 129, 241);
+  }
+
+
+  .step {
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .step-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .step-description {
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 500px;
+    margin-left: 500px; /* Spazio per l'immagine */
+  }
+  .step-image {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+  
   }

@@ -20,7 +20,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="keywords" content="ASSEMBLAGGIO PC, hardware, componenti, computer, montaggio">
-  <title>Login</title>
+  <title>Registrati</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 </head>
@@ -45,7 +45,7 @@
     <img src="images/login.png" alt="Login Logo" class="login-logo">
 
     <div class="login-box">
-      <h2 class="login-title">Login</h2>
+      <h2 class="login-title">Registrati </h2>
       <div class="input-box">
         <label for="username" class="input-label">Username</label>
         <input type="text" id="username" class="input-field" placeholder="Inserisci il tuo username">
@@ -54,17 +54,15 @@
         <label for="password" class="input-label">Password</label>
         <input type="password" id="password" class="input-field" placeholder="Inserisci la tua password">
       </div>
+      <div class="input-box">
+        <label for="repeat-password" class="input-label">Ripeti Password</label>
+        <input type="repeat-password" id="repeat-password" class="input-field" placeholder="Inserisci la tua password">
+      </div>
       <div class="remember-me">
         <input type="checkbox" id="remember" class="checkbox">
         <label for="remember" class="checkbox-label">Ricordami</label>
       </div>
-      <button class="login-button" href="Home.html" id= "login-button">ACCEDI</button>
-      <div class="forgot-password">
-        <a href="Password Dimenticata.html" class="forgot-password-link">Password dimenticata?</a>
-      </div>
-      <div class="register-link">
-        <a href="Registrati.html" class="register-link-text">Registrati</a>
-      </div>
+      <button class="login-button" href="Login.html" id= "login-button">REGISTRATI</button>
     </div>
   </div>
 
@@ -81,18 +79,25 @@
 <script>
   const username = document.getElementById("username");
   const password = document.getElementById("password");
+  const repeatPassword = document.getElementById("repeat-password");
   const loginButton = document.getElementById("login-button");
 
   loginButton.addEventListener("click", function() {
-      // Verificare se entrambi i campi sono stati compilati
-      if (username.value && password.value) {
-          // Alert di benvenuto con il valore dell'username
-          alert("Benvenut* " + username.value);
-          // Reindirizza alla pagina Home.html
-          window.location.href = "Home.html";
+      // Verificare se tutti i campi sono stati compilati
+      if (username.value && password.value && repeatPassword.value) {
+          // Verificare se la password e la repeat password sono uguali
+          if (password.value === repeatPassword.value) {
+              // Alert di benvenuto con il valore dell'username
+              alert("Benvenut* " + username.value);
+              // Reindirizza alla pagina Login.html
+              window.location.href = "Login.html";
+          } else {
+              // Alert se le password non corrispondono
+              alert("Le password non corrispondono.");
+          }
       } else {
           // Alert se uno dei campi non è stato compilato
-          alert("Per favore, inserisci username e password.");
+          alert("Per favore, inserisci username, password e ripeti la password.");
       }
   });
 </script>
