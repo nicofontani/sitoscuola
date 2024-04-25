@@ -128,13 +128,23 @@ body {
     margin-top: 50px;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
+    clear: both; 
   }
   
   .footer-copyright {
     margin-top: 50px;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    clear: both; 
   }
+
+  footer img {
+    width: 60px; /* Dimensioni desiderate */
+    height: auto; /* Mantieni l'aspect ratio */
+    float: right;
+    margin-right: 100px;
+    clear: both; 
+}
   
   .profile-image {
     margin-top: 100px;
@@ -243,12 +253,63 @@ body {
     border-radius: 10px;
     font-size: 18px;
     background-color: rgb(0, 81, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
   .login-button:hover {
+    background-color: rgb(78, 129, 241);
+  }
+
+
+
+
+  .torna-button {
+    display: block;
+    margin: 20px auto; /* Centra il pulsante orizzontalmente e aggiunge margine sopra e sotto */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 100px ;
+    width: 500px; /* Dimensioni desiderate */
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(0, 81, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .torna-button:hover {
+    background-color: rgb(78, 129, 241);
+  }
+
+
+
+
+  .crea-button {
+    display: block;
+    margin: 20px auto; /* Centra il pulsante orizzontalmente e aggiunge margine sopra e sotto */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px ;
+    margin-bottom: -50px ;
+    width: 500px; /* Dimensioni desiderate */
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(0, 81, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .crea-button:hover {
     background-color: rgb(78, 129, 241);
   }
 
