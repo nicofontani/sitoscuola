@@ -330,7 +330,7 @@ body {
     font-size: larger; 
     text-align: justify;
     margin-left: 100px;
-    margin-bottom: 180px;
+    margin-bottom: 120px;
   
   }
   .step-image1 {
@@ -358,7 +358,7 @@ body {
     text-align: justify;
     margin-right: 100px;
     float: right;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
     
     
   }
@@ -366,7 +366,6 @@ body {
     float: left; 
     margin-bottom: 200px;
     width: 20%; 
-    margin-left: 6%;  
     border-radius: 20px;x
   }
 
