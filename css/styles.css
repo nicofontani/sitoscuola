@@ -168,7 +168,7 @@ body {
 
 .login-container {
   position: relative; /* Importante per il posizionamento assoluto del logo */
-  margin-top: 100px; /* Margine superiore per evitare sovrapposizione con l'header */
+  margin-top: 80px; /* Margine superiore per evitare sovrapposizione con l'header */
   display: flex;
   justify-content: center;
   align-items: center;
