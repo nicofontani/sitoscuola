@@ -175,14 +175,6 @@ body {
   height: calc(100vh - 60px); /* Altezza della finestra meno altezza dell'header */
   background-color: #f2f2f2;
 }
-
-  .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f2f2f2;
-  }
   
   .login-logo {
     position: absolute;
