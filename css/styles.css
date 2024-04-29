@@ -168,10 +168,11 @@ body {
 
 .login-container {
   position: relative; /* Importante per il posizionamento assoluto del logo */
+  margin-top: 60px; /* Margine superiore per evitare sovrapposizione con l'header */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 60px); /* Altezza della finestra meno altezza dell'header */
   background-color: #f2f2f2;
 }
 
