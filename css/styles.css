@@ -371,8 +371,8 @@ body {
   }
 
 .tornasu {
-    width: 10px;
-    height: 10px;
+    width: 3px;
+    height: 3px;
     position: fixed;
     bottom: 20px; /* Distanza dal fondo dello schermo */
     right: 20px; /* Distanza dalla destra dello schermo */
