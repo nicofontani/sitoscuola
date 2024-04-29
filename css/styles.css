@@ -370,10 +370,14 @@ body {
     border-radius: 20px;x
   }
 
-.tornasu{
-width: 5px;
-height: 5px;
-position: fixed;
-display: flex;
-padding: 10px 20px;
+.tornasu {
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    bottom: 20px; /* Distanza dal fondo dello schermo */
+    right: 20px; /* Distanza dalla destra dello schermo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
 }
