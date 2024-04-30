@@ -364,8 +364,8 @@ body {
     width: 3%;
     height: 3%;
     position: fixed;
-    bottom: 50px; /* Distanza dal fondo dello schermo */
-    right: 20px; /* Distanza dalla destra dello schermo */
+    bottom: 80px; /* Distanza dal fondo dello schermo */
+    right: 10px; /* Distanza dalla destra dello schermo */
     display: flex;
     align-items: center;
     justify-content: center;
