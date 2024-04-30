@@ -176,19 +176,6 @@ body {
   background-color: #f2f2f2;
 }
   
-  .login-logo {
-    position: absolute;
-    top: 10px; /* Altezza del logo */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: white;
-    border: 5px solid #ccc; /* Bordo del logo */
-    padding: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombra del logo */
-  }
   .login-box {
     background-color: white;
     border-radius: 20px;
